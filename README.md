@@ -19,6 +19,17 @@ This project allows users to enter personal and lifestyle-related details and re
 - Docker Hub image available
 - AWS EC2 deployment workflow
 
+## Application Screenshots
+
+### Streamlit Input Form
+
+![Insurance Premium Predictor Input Form](screenshots/streamlit-inputs.png)
+
+### Prediction Output
+
+![Insurance Premium Prediction Output](screenshots/streamlit-outputs.png)
+
+
 ## Tech Stack
 
 - **Language:** Python
