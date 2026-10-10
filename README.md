@@ -19,6 +19,14 @@ This project allows users to enter personal and lifestyle-related details and re
 - Docker Hub image available
 - AWS EC2 deployment workflow
 
+## Live Demo
+
+- **Live Application:** [Insurance Premium Category Predictor](https://insurance-premium-prediction-nuf2qssynzmhabbyyohp9s.streamlit.app/)
+- **FastAPI Swagger Documentation:** [Explore API](http://3.25.181.98:8000/docs)
+- **Source Code:** [GitHub Repository](https://github.com/karankatkar14/insurance-premium-prediction)
+
+The frontend is hosted on Streamlit Community Cloud, while the FastAPI backend runs on AWS EC2 using Docker.
+
 ## Application Screenshots
 
 ### Streamlit Input Form
@@ -39,7 +47,7 @@ This project allows users to enter personal and lifestyle-related details and re
 - **Validation:** Pydantic
 - **Frontend:** Streamlit
 - **Containerization:** Docker
-- **Cloud Deployment:** AWS EC2
+- **Cloud Deployment:** AWS EC2, Streamlit Community Cloud
 - **Version Control:** Git and GitHub
 
 ## Project Structure
@@ -57,6 +65,7 @@ insurance-premium-prediction/
 ├── app.py
 ├── frontend.py
 ├── requirements.txt
+├── runtime.txt
 ├── Dockerfile
 ├── insurance.csv
 ├── fastapi_ml_model .ipynb
@@ -213,12 +222,12 @@ For remote access, configure the EC2 security group carefully and allow only the
 
 ## Future Improvements
 
-- Deploy the Streamlit frontend publicly
-- Add automated tests
+- Add automated unit and API tests
 - Implement CI/CD using GitHub Actions
 - Add structured logging and monitoring
 - Improve model evaluation and performance
 - Use environment variables for API configuration
+- Secure API communication with HTTPS and appropriate access controls
 - Add API authentication where appropriate
 
 ## Author
